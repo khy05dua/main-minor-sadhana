@@ -1,0 +1,74 @@
+.carousel {
+  width: 100%; /* Make sure the carousel takes 100% width */
+  max-width: 800px; /* Set a maximum width for the carousel */
+  margin: 0 auto; /* Center the carousel horizontally */
+  overflow: hidden; /* Hide any content that overflows */
+}
+
+.carousel img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio for images */
+  border-radius: 8px;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  overflow: hidden; /* Hide any content that overflows */
+}
+
+  
+  .about-content {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  .about-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+  }
+
+  .grid-container {
+    display: grid;
+    height: 400px;
+    align-content: center;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: repeat(4,80px);
+    gap: 10px;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  
+  h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color:#171717;
+    font-size:40px;
+    font-weight: 600;
+  }
+
+  
+
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  
+}
+
+.grid-container > div img {
+  width: 100%;
+  max-width: 280px; /* Adjust the max-width as needed */
+
+  margin-bottom: 10px; /* Add some space between image and name */
+}
+
+.content{
+  padding: 0.5% 10%;
+}

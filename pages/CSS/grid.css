@@ -1,0 +1,21 @@
+/* GridComponent.css */
+
+.grid-container-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+    grid-gap: 16px; /* Adjust the gap between columns if needed */
+    max-width: 1500px; /* Adjust the maximum width of the grid container */
+    margin: auto; /* Center the grid container */
+    padding-top: 10px;
+  }
+  
+  .grid-item {
+    border: 1px solid #ddd; /* Optional: Add borders to the grid items for visibility */
+    padding: 20px; /* Optional: Add padding to the grid items for spacing */
+    text-align: center;
+    background-color: rgb(240, 209, 152);
+
+  }
+
+
+  
